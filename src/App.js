@@ -5,7 +5,7 @@ import Home from './routes/home/home.component';
 const App = () => {
   return (
     <Routes>
-      <Route path='/' index element={<Home />} />
+      <Route path='/home' index element={<Home />} />
     </Routes>
   );
 };
