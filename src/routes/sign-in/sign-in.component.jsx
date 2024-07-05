@@ -10,8 +10,9 @@ const SignIn = () => {
   };
 
   return (
-    <div>
-      <h1>Sign In Page</h1>
+    <div className='sign-up-container'>
+      <h2>Don't have an account?</h2>
+      <span>Sign up with your email and password</span>
       <button onClick={logGoogleUser}>Sign in with Google Popup</button>
       <SignUpForm/>
     </div>
